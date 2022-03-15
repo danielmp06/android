@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/nama_olahraga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Nama Olahraga: "
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/calori_olahraga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Calori Olahraga: "
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nama_olahraga" />
+
+    <TextView
+        android:id="@+id/Durasi_olahraga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Durasi Olahraga: "
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calori_olahraga" />
+
+    <TextView
+        android:id="@+id/Link_olahraga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:paddingBottom="8dp"
+        android:text="Link Olahraga: "
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Durasi_olahraga"/>
+
+    <TextView
+        android:id="@+id/Link_olahraga2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="a"
+        android:textSize="12dp"
+        app:layout_constraintStart_toEndOf="@+id/Link_olahraga"
+        app:layout_constraintTop_toBottomOf="@+id/Durasi_olahraga" />
+
+    <TextView
+        android:id="@+id/Durasi_olahraga2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="11dp"
+        android:text="a"
+        android:textSize="12dp"
+        app:layout_constraintStart_toEndOf="@+id/Durasi_olahraga"
+        app:layout_constraintTop_toBottomOf="@+id/calori_olahraga" />
+
+    <TextView
+        android:id="@+id/calori_olahraga2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="27dp"
+        android:text="a"
+        android:textSize="12dp"
+        app:layout_constraintStart_toEndOf="@+id/Durasi_olahraga"
+        app:layout_constraintTop_toBottomOf="@+id/nama_olahraga" />
+
+    <TextView
+        android:id="@+id/nama_olahraga2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="a"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/nama_olahraga"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
